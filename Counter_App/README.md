@@ -4,7 +4,7 @@
 Create a simple Counter App using HTML, CSS, and JavaScript.
 ```
 
-# Requirements:
+### Requirements:
 
 * Create a number display starting from 0.
 * Add three buttons:
@@ -16,7 +16,7 @@ Create a simple Counter App using HTML, CSS, and JavaScript.
 * When the user clicks Reset, set the number back to 0.
 * Use CSS to make the counter visually appealing and center it on the page.
 
-# Style Requirements:
+### Style Requirements:
 
 * Center the counter app both horizontally and vertically on the page.
 * Use a card-style container with a clean background, rounded corners, and a subtle shadow.
