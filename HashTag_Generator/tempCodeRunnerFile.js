@@ -1,0 +1,1 @@
+val.charAt(0).toUppercase + val.slice(1)
