@@ -1,17 +1,21 @@
-function FindLargestNumber(str) {
-  let word = str;
-
-  if (str.trim() === "") {
+const FindLargestNumber = (str) => {
+  if (str.trim().length === "") {
     return false;
-  } else {
-    word = str.split(" ");
-    word.sort((a, b) => {
-      return b.length - a.length;
-    });
-    console.log(word);
-    console.log(word[0]);
   }
-}
+  str = str.split(" ");
+  // str.sort((a, b) => {
+  //   return b.length - a.length;
+  // });
+  // return str[0];
+
+  return str.reduce((acc, cur) => {
+    if (acc.length < cur.length) {
+      return cur;
+    } else {
+      return acc;
+    }
+  }, "");
+};
 
 console.log(
   FindLargestNumber("This is Alfat Tasnim Hasan.. I am practicing JavaScript"),
