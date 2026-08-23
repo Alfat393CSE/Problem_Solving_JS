@@ -1,5 +1,5 @@
 ### JavaScript Basic Problem Solutions
 
-```
-A collection of solutions to various basic programming problems using JavaScript.
-```
+
+* This repository contains solutions to various basic programming problems solved using JavaScript. It is intended for practicing fundamental concepts and improving problem-solving skills.
+
